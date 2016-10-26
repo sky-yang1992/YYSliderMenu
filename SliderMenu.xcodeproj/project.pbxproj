@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		842178531DB0E56E00642DA8 /* YYContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 842178521DB0E56E00642DA8 /* YYContentViewController.m */; };
+		843414C81DB482540074928E /* YYSliderMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 843414C71DB482540074928E /* YYSliderMenuView.m */; };
 		846E75041DB08E7F00028B86 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 846E75031DB08E7F00028B86 /* main.m */; };
 		846E75071DB08E7F00028B86 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 846E75061DB08E7F00028B86 /* AppDelegate.m */; };
 		846E750A1DB08E7F00028B86 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 846E75091DB08E7F00028B86 /* ViewController.m */; };
@@ -35,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		842178511DB0E56E00642DA8 /* YYContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYContentViewController.h; sourceTree = "<group>"; };
+		842178521DB0E56E00642DA8 /* YYContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYContentViewController.m; sourceTree = "<group>"; };
+		843414C61DB482540074928E /* YYSliderMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYSliderMenuView.h; sourceTree = "<group>"; };
+		843414C71DB482540074928E /* YYSliderMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYSliderMenuView.m; sourceTree = "<group>"; };
 		846E74FF1DB08E7F00028B86 /* SliderMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SliderMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		846E75031DB08E7F00028B86 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		846E75051DB08E7F00028B86 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -105,6 +111,10 @@
 				846E75061DB08E7F00028B86 /* AppDelegate.m */,
 				846E75081DB08E7F00028B86 /* ViewController.h */,
 				846E75091DB08E7F00028B86 /* ViewController.m */,
+				843414C61DB482540074928E /* YYSliderMenuView.h */,
+				843414C71DB482540074928E /* YYSliderMenuView.m */,
+				842178511DB0E56E00642DA8 /* YYContentViewController.h */,
+				842178521DB0E56E00642DA8 /* YYContentViewController.m */,
 				846E750B1DB08E7F00028B86 /* Main.storyboard */,
 				846E750E1DB08E8000028B86 /* Assets.xcassets */,
 				846E75101DB08E8000028B86 /* LaunchScreen.storyboard */,
@@ -270,8 +280,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				842178531DB0E56E00642DA8 /* YYContentViewController.m in Sources */,
 				846E750A1DB08E7F00028B86 /* ViewController.m in Sources */,
 				846E75071DB08E7F00028B86 /* AppDelegate.m in Sources */,
+				843414C81DB482540074928E /* YYSliderMenuView.m in Sources */,
 				846E75041DB08E7F00028B86 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -496,6 +508,7 @@
 				846E752E1DB08E8000028B86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		846E752F1DB08E8000028B86 /* Build configuration list for PBXNativeTarget "SliderMenuTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +517,7 @@
 				846E75311DB08E8000028B86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		846E75321DB08E8000028B86 /* Build configuration list for PBXNativeTarget "SliderMenuUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +526,7 @@
 				846E75341DB08E8000028B86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
